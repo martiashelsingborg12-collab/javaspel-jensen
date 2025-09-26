@@ -33,7 +33,10 @@ public class Game{
     }
    
     private void play( Player player1, Player player2){
-        System.out.println(player1.getName());
-        System.out.println(player2.getName());
+        player1.roll();
+        player2.roll();
+	player1.roll();
+	player2.roll();
     }
+
 } 

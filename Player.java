@@ -12,7 +12,15 @@ public class Player {
         return (firstname + "  " + lastname);
   
     }
+     public void roll(){
+         Dice dice = new Dice();
 
+	 int dots = dice.roll();
+	 System.out.print("Player ");
+	 System.out.print(getName());
+
+	 System.out.println(" rolled " + dots);
+     }
 
 
 }
